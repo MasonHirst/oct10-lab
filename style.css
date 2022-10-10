@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header {
@@ -34,6 +35,17 @@ p {
 img {
     border: solid black 5px;
     height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: .8s;
+    cursor: pointer;
+}
+img:active {
+    transform: scale(0.01) translate(800px) rotate(-180deg) ;
+    /* transform: rotate(-180deg); */
+    /* transform: translate(50px)  */
 }
 
 footer {
