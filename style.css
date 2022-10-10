@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 100px;
+}
+
+main {
+    margin-left: 100px
+}
+
+.memes {
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    border-bottom: dotted black 3px;
+    border-top: dotted black 3px;
+}
+
+p {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+img {
+    border: solid black 5px;
+    height: 320px;
+}
+
+footer {
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
